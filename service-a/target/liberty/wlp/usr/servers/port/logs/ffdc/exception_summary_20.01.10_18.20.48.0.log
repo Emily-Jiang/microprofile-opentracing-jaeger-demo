@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 10/01/2020, 18:20:48:296 GMT 10/01/2020, 18:20:49:470 GMT java.util.NoSuchElementException com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension 141
+                                                                            - /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/ffdc/ffdc_20.01.10_18.20.48.0.log
+     1      1 10/01/2020, 18:20:50:014 GMT 10/01/2020, 18:20:50:014 GMT org.jboss.weld.exceptions.DeploymentException com.ibm.ws.container.service.state.internal.ApplicationStateManager 54
+                                                                            - /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/ffdc/ffdc_20.01.10_18.20.50.0.log
+     2      1 10/01/2020, 18:20:50:115 GMT 10/01/2020, 18:20:50:115 GMT com.ibm.ws.container.service.state.StateChangeException com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 551
+                                                                            - /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/ffdc/ffdc_20.01.10_18.20.50.1.log
+------+------+---------------------------+---------------------------+---------------------------

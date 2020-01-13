@@ -1,0 +1,285 @@
+********************************************************************************
+product = Open Liberty 19.0.0.12 (wlp-1.0.35.cl191220191120-0300)
+wlp.install.dir = /Users/emily/Downloads/port/service-a/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11-openj9.jdk/Contents/Home
+java.version = 11.0.5
+java.runtime = OpenJDK Runtime Environment (11.0.5+10)
+os = Mac OS X (10.15.2; x86_64) (en_GB)
+process = 90909@emilys-mbp.hursley.uk.ibm.com
+********************************************************************************
+[10/01/2020, 17:38:53:991 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server port has been launched.
+[10/01/2020, 17:38:55:979 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.682 seconds
+[10/01/2020, 17:38:56:056 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/01/2020, 17:39:01:212 GMT] 00000024 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/01/2020, 17:39:01:406 GMT] 00000024 .apache.cxf.cxf.core.3.2:1.0.35.cl191220191120-0300(id=173)] I Aries Blueprint packages not available. So namespaces will not be registered
+[10/01/2020, 17:39:01:412 GMT] 00000024 .apache.cxf.cxf.core.3.2:1.0.35.cl191220191120-0300(id=173)] I Aries Blueprint packages not available. So namespaces will not be registered
+[10/01/2020, 17:39:01:714 GMT] 00000026 com.ibm.ws.annocache.service                                 I OSGi Work Path [ /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/workarea/org.eclipse.osgi/41/data ]
+[10/01/2020, 17:39:01:903 GMT] 00000027 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/01/2020, 17:39:02:498 GMT] 00000041 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[10/01/2020, 17:39:03:268 GMT] 00000024 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/01/2020, 17:39:03:272 GMT] 00000024 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/01/2020, 17:39:03:273 GMT] 00000024 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/01/2020, 17:39:03:591 GMT] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[10/01/2020, 17:39:03:665 GMT] 00000037 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[10/01/2020, 17:39:03:766 GMT] 00000024 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[10/01/2020, 17:39:04:363 GMT] 00000024 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[10/01/2020, 17:39:04:426 GMT] 00000024 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[10/01/2020, 17:39:04:481 GMT] 00000024 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[10/01/2020, 17:39:04:499 GMT] 00000024 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[10/01/2020, 17:39:04:504 GMT] 00000024 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[10/01/2020, 17:39:04:507 GMT] 00000024 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[10/01/2020, 17:39:04:736 GMT] 00000037 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 1.070 seconds. LTPA key file: /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/resources/security/ltpa.keys
+[10/01/2020, 17:39:04:746 GMT] 00000037 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 1.083 seconds.
+[10/01/2020, 17:39:05:259 GMT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/01/2020, 17:39:06:129 GMT] 00000031 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 17:39:06:131 GMT] 00000031 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 17:39:06:727 GMT] 0000003d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[10/01/2020, 17:39:06:732 GMT] 0000003d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[10/01/2020, 17:39:06:745 GMT] 0000003d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[10/01/2020, 17:39:06:814 GMT] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[10/01/2020, 17:39:06:813 GMT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[10/01/2020, 17:39:06:814 GMT] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[10/01/2020, 17:39:06:814 GMT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[10/01/2020, 17:39:06:814 GMT] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[10/01/2020, 17:39:06:823 GMT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[10/01/2020, 17:39:06:870 GMT] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[10/01/2020, 17:39:06:891 GMT] 00000039 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:06:914 GMT] 0000003a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[10/01/2020, 17:39:06:915 GMT] 0000003a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[10/01/2020, 17:39:06:915 GMT] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[10/01/2020, 17:39:06:926 GMT] 00000042 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[10/01/2020, 17:39:06:927 GMT] 00000042 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[10/01/2020, 17:39:06:928 GMT] 00000042 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[10/01/2020, 17:39:07:049 GMT] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[10/01/2020, 17:39:07:050 GMT] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:07:147 GMT] 00000036 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[10/01/2020, 17:39:07:147 GMT] 00000036 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:07:178 GMT] 00000036 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/01/2020, 17:39:07:182 GMT] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[10/01/2020, 17:39:07:183 GMT] 00000035 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:07:242 GMT] 00000038 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[10/01/2020, 17:39:07:242 GMT] 00000038 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:07:511 GMT] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 3.919 seconds. SSL key file: /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/resources/security/public.jks
+[10/01/2020, 17:39:07:513 GMT] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/resources/security/public.jks of type: JKS
+[10/01/2020, 17:39:07:661 GMT] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[10/01/2020, 17:39:07:662 GMT] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[10/01/2020, 17:39:07:662 GMT] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[10/01/2020, 17:39:07:678 GMT] 0000003b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[10/01/2020, 17:39:07:678 GMT] 0000003b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:07:704 GMT] 0000003e com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9443.
+[10/01/2020, 17:39:07:717 GMT] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.metrics.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[10/01/2020, 17:39:07:721 GMT] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Initialization successful.
+[10/01/2020, 17:39:07:721 GMT] 00000035 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[10/01/2020, 17:39:07:738 GMT] 00000035 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckServlet]: Initialization successful.
+[10/01/2020, 17:39:07:742 GMT] 00000035 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[10/01/2020, 17:39:08:287 GMT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 17:39:08:363 GMT] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 17:39:10:303 GMT] 00000031 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application port was processed and an OpenAPI document was produced.
+[10/01/2020, 17:39:10:340 GMT] 00000031 org.jboss.weld.Version                                       I WELD-000900: 3.1.1 (Final)
+[10/01/2020, 17:39:15:166 GMT] 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: port.
+[10/01/2020, 17:39:15:167 GMT] 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module port has been bound to default_host.
+[10/01/2020, 17:39:15:167 GMT] 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[10/01/2020, 17:39:15:170 GMT] 00000031 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application port started in 9.041 seconds.
+[10/01/2020, 17:39:15:182 GMT] 0000005e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[10/01/2020, 17:39:15:184 GMT] 0000005e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 17:39:15:275 GMT] 00000055 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 17:39:15:369 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-2.0, cdi-2.0, concurrent-1.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-3.2, mpConfig-1.3, mpFaultTolerance-2.0, mpHealth-2.1, mpJwt-1.1, mpMetrics-2.2, mpOpenAPI-1.1, mpOpenTracing-1.3, mpRestClient-1.3, opentracing-1.3, servlet-4.0, ssl-1.0].
+[10/01/2020, 17:39:15:371 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 19.414 seconds.
+[10/01/2020, 17:39:15:371 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The port server is ready to run a smarter planet. The port server started in 22.079 seconds.
+[10/01/2020, 17:39:22:360 GMT] 00000062 .apache.cxf.cxf.core.3.2:1.0.35.cl191220191120-0300(id=173)] I Setting the server's publish address to be /data/
+[10/01/2020, 17:39:22:642 GMT] 00000062 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [port] [/] [com.example.port.PortRestApplication]: Initialization successful.
+[10/01/2020, 17:39:23:000 GMT] 00000062 com.ibm.ws.opentracing.OpentracingUserFeatureAccessService   E CWMOT0008E: OpenTracing cannot track JAX-RS requests because an OpentracingTracerFactory class was not provided.
+[10/01/2020, 18:20:43:662 GMT] 00000e75 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[10/01/2020, 18:20:43:667 GMT] 00000e75 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [port] [/] [com.example.port.PortRestApplication]: Destroy successful.
+[10/01/2020, 18:20:43:698 GMT] 00000e75 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application port has stopped successfully.
+[10/01/2020, 18:20:43:754 GMT] 00000e75 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 18:20:43:755 GMT] 00000e75 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 18:20:43:920 GMT] 00000c85 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:20:45:711 GMT] 00000e75 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application port was processed and an OpenAPI document was produced.
+[10/01/2020, 18:20:48:785 GMT] 00000e75 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.util.NoSuchElementException: CWMCG0015E: The property injected.value was not found in the configuration. com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension 141" at ffdc_20.01.10_18.20.48.0.log
+[10/01/2020, 18:20:48:793 GMT] 00000e75 com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension        E CWMCG5003E: The [BackedAnnotatedField] @Inject @ConfigProperty private com.example.port.config.ConfigTestController.injectedValue InjectionPoint dependency was not resolved. Error: java.util.NoSuchElementException: CWMCG0015E: The property injected.value was not found in the configuration.
+	at com.ibm.ws.microprofile.config.impl.AbstractConfig.getValue(AbstractConfig.java:175)
+	at com.ibm.ws.microprofile.config.impl.AbstractConfig.getValue(AbstractConfig.java:141)
+	at com.ibm.ws.microprofile.config.cdi.ConfigProducer.newValue(ConfigProducer.java:44)
+	at com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension.processConversionType(ConfigCDIExtension.java:139)
+	at com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension.processInjectionTarget(ConfigCDIExtension.java:74)
+	at jdk.internal.reflect.GeneratedMethodAccessor721.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:85)
+	at org.jboss.weld.injection.MethodInvocationStrategy$SimpleMethodInvocationStrategy.invoke(MethodInvocationStrategy.java:168)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)
+	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)
+	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)
+	at org.jboss.weld.util.Observers.notify(Observers.java:166)
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)
+	at org.jboss.weld.bootstrap.events.AbstractDefinitionContainerEvent.fire(AbstractDefinitionContainerEvent.java:44)
+	at org.jboss.weld.bootstrap.events.AbstractProcessInjectionTarget.fire(AbstractProcessInjectionTarget.java:40)
+	at org.jboss.weld.bootstrap.events.ContainerLifecycleEvents.fireProcessInjectionTarget(ContainerLifecycleEvents.java:279)
+	at org.jboss.weld.manager.BeanManagerImpl.fireProcessInjectionTarget(BeanManagerImpl.java:1243)
+	at org.jboss.weld.manager.BeanManagerImpl.fireProcessInjectionTarget(BeanManagerImpl.java:1238)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.createJEEComponentInjectionTarget(BeanDeploymentArchiveImpl.java:910)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.createInjectionTargetsForJEEComponentClass(BeanDeploymentArchiveImpl.java:848)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.createInjectionTargetsForJEEComponentClasses(BeanDeploymentArchiveImpl.java:834)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.validateJEEComponentClasses(WebSphereCDIDeploymentImpl.java:673)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:155)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:448)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:550)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:511)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1266)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1134)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:889)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[10/01/2020, 18:20:49:470 GMT] 00000e75 com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension        E CWMCG5003E: The [BackedAnnotatedField] @Inject @ConfigProperty private com.example.port.config.ConfigTestController.injectedValue InjectionPoint dependency was not resolved. Error: java.util.NoSuchElementException: CWMCG0015E: The property injected.value was not found in the configuration.
+	at com.ibm.ws.microprofile.config.impl.AbstractConfig.getValue(AbstractConfig.java:175)
+	at com.ibm.ws.microprofile.config.impl.AbstractConfig.getValue(AbstractConfig.java:141)
+	at com.ibm.ws.microprofile.config.cdi.ConfigProducer.newValue(ConfigProducer.java:44)
+	at com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension.processConversionType(ConfigCDIExtension.java:139)
+	at com.ibm.ws.microprofile.config.cdi.ConfigCDIExtension.processInjectionTarget(ConfigCDIExtension.java:74)
+	at jdk.internal.reflect.GeneratedMethodAccessor721.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:85)
+	at org.jboss.weld.injection.MethodInvocationStrategy$SimpleMethodInvocationStrategy.invoke(MethodInvocationStrategy.java:168)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)
+	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)
+	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)
+	at org.jboss.weld.util.Observers.notify(Observers.java:166)
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)
+	at org.jboss.weld.bootstrap.events.AbstractDefinitionContainerEvent.fire(AbstractDefinitionContainerEvent.java:44)
+	at org.jboss.weld.bootstrap.events.AbstractProcessInjectionTarget.fire(AbstractProcessInjectionTarget.java:33)
+	at org.jboss.weld.bootstrap.events.ContainerLifecycleEvents.fireProcessInjectionTarget(ContainerLifecycleEvents.java:273)
+	at org.jboss.weld.bootstrap.AbstractBeanDeployer.processInjectionTargetEvents(AbstractBeanDeployer.java:140)
+	at org.jboss.weld.bootstrap.BeanDeployer.processBeans(BeanDeployer.java:262)
+	at org.jboss.weld.bootstrap.BeanDeployer.processClassBeanAttributes(BeanDeployer.java:244)
+	at org.jboss.weld.bootstrap.WeldStartup.deployBeans(WeldStartup.java:442)
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:86)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:156)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:448)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:550)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:511)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1266)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1134)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:889)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[10/01/2020, 18:20:50:091 GMT] 00000e75 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type String with qualifiers @ConfigProperty
+  at injection point [BackedAnnotatedField] @Inject @ConfigProperty private com.example.port.config.ConfigTestController.injectedValue
+  at com.example.port.config.ConfigTestController.injectedValue(ConfigTestController.java:0)
+WELD-001475: The following beans match by type, but none have matching qualifiers:
+  - Producer Method [String] with qualifiers [@Any @Claim] declared as [[UnbackedAnnotatedMethod] @Produces @Dependent @Claim @ManualTrace public com.ibm.ws.security.mp.jwt.cdi.ClaimProducer.getString(InjectionPoint)]
+ com.ibm.ws.container.service.state.internal.ApplicationStateManager 54" at ffdc_20.01.10_18.20.50.0.log
+[10/01/2020, 18:20:50:386 GMT] 00000e75 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type String with qualifiers @ConfigProperty
+  at injection point [BackedAnnotatedField] @Inject @ConfigProperty private com.example.port.config.ConfigTestController.injectedValue
+  at com.example.port.config.ConfigTestController.injectedValue(ConfigTestController.java:0)
+WELD-001475: The following beans match by type, but none have matching qualifiers:
+  - Producer Method [String] with qualifiers [@Any @Claim] declared as [[UnbackedAnnotatedMethod] @Produces @Dependent @Claim @ManualTrace public com.ibm.ws.security.mp.jwt.cdi.ClaimProducer.getString(InjectionPoint)]
+ com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 551" at ffdc_20.01.10_18.20.50.1.log
+[10/01/2020, 18:20:50:408 GMT] 00000e75 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0004E: An exception occurred while starting the application port. The exception message was: com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type String with qualifiers @ConfigProperty
+  at injection point [BackedAnnotatedField] @Inject @ConfigProperty private com.example.port.config.ConfigTestController.injectedValue
+  at com.example.port.config.ConfigTestController.injectedValue(ConfigTestController.java:0)
+WELD-001475: The following beans match by type, but none have matching qualifiers:
+  - Producer Method [String] with qualifiers [@Any @Claim] declared as [[UnbackedAnnotatedMethod] @Produces @Dependent @Claim @ManualTrace public com.ibm.ws.security.mp.jwt.cdi.ClaimProducer.getString(InjectionPoint)]
+
+[10/01/2020, 18:20:50:442 GMT] 00000e75 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 18:20:50:443 GMT] 00000e75 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 18:20:54:580 GMT] 00000e75 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: port.
+[10/01/2020, 18:20:54:581 GMT] 00000e75 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module port has been bound to default_host.
+[10/01/2020, 18:20:54:581 GMT] 00000e75 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[10/01/2020, 18:20:54:583 GMT] 00000e75 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application port updated in 4.141 seconds.
+[10/01/2020, 18:20:54:583 GMT] 00000eae com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[10/01/2020, 18:20:54:584 GMT] 00000eae com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 18:20:54:691 GMT] 00000bc1 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:32:357 GMT] 00000b8d com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/01/2020, 18:22:32:439 GMT] 00000e96 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application port was processed and an OpenAPI document was produced.
+[10/01/2020, 18:22:32:440 GMT] 00000e96 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[10/01/2020, 18:22:32:456 GMT] 00000e96 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application port has stopped successfully.
+[10/01/2020, 18:22:32:459 GMT] 00000cda com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: The server configuration was successfully updated in 0.107 seconds.
+[10/01/2020, 18:22:32:466 GMT] 00000e96 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 18:22:32:467 GMT] 00000e96 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 18:22:32:511 GMT] 00000f4d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:36:862 GMT] 00000e96 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: port.
+[10/01/2020, 18:22:36:863 GMT] 00000e96 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module port has been bound to default_host.
+[10/01/2020, 18:22:36:864 GMT] 00000e96 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[10/01/2020, 18:22:36:865 GMT] 00000bc1 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[10/01/2020, 18:22:36:865 GMT] 00000bc1 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 18:22:36:867 GMT] 00000e96 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application port updated in 4.401 seconds.
+[10/01/2020, 18:22:36:936 GMT] 00000f5f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:37:120 GMT] 00000f5b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/01/2020, 18:22:37:130 GMT] 00000f5b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[10/01/2020, 18:22:37:180 GMT] 00000b8d com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application port was processed and an OpenAPI document was produced.
+[10/01/2020, 18:22:37:181 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[10/01/2020, 18:22:37:199 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application port has stopped successfully.
+[10/01/2020, 18:22:37:212 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 18:22:37:213 GMT] 00000b8d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 18:22:37:252 GMT] 00000a64 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:41:366 GMT] 00000b8d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: port.
+[10/01/2020, 18:22:41:367 GMT] 00000b8d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module port has been bound to default_host.
+[10/01/2020, 18:22:41:368 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[10/01/2020, 18:22:41:369 GMT] 00000cda com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[10/01/2020, 18:22:41:370 GMT] 00000cda com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 18:22:41:369 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application port updated in 4.158 seconds.
+[10/01/2020, 18:22:41:419 GMT] 00000e2b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:41:460 GMT] 00000b8d com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application port was processed and an OpenAPI document was produced.
+[10/01/2020, 18:22:41:461 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[10/01/2020, 18:22:41:492 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application port has stopped successfully.
+[10/01/2020, 18:22:41:526 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application port.
+[10/01/2020, 18:22:41:527 GMT] 00000b8d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The port application is using the loose application definition at the /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/apps/port.war.xml location.
+[10/01/2020, 18:22:41:571 GMT] 00000b29 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:44:656 GMT] 00000b8d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: port.
+[10/01/2020, 18:22:44:656 GMT] 00000b8d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module port has been bound to default_host.
+[10/01/2020, 18:22:44:657 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[10/01/2020, 18:22:44:658 GMT] 00000b29 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[10/01/2020, 18:22:44:659 GMT] 00000b29 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/01/2020, 18:22:44:658 GMT] 00000b8d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application port updated in 3.132 seconds.
+[10/01/2020, 18:22:44:710 GMT] 00000f5c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/emily/Downloads/port/service-a/target/liberty/wlp/usr/servers/port/logs/state/plugin-cfg.xml.
+[10/01/2020, 18:22:59:202 GMT] 00000021 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server port is stopping because the JVM is exiting.
+[10/01/2020, 18:22:59:206 GMT] 00000fa0 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/01/2020, 18:22:59:213 GMT] 00000b8d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9443.
+[10/01/2020, 18:22:59:216 GMT] 00000b8d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[10/01/2020, 18:22:59:217 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/jwt/
+[10/01/2020, 18:22:59:217 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/ui/
+[10/01/2020, 18:22:59:218 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/metrics/
+[10/01/2020, 18:22:59:218 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/health/
+[10/01/2020, 18:22:59:218 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[10/01/2020, 18:22:59:219 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/ibm/api/
+[10/01/2020, 18:22:59:219 GMT] 00000b8d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/
+[10/01/2020, 18:22:59:513 GMT] 00000022 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Friday, 10 January 2020 at 18:22. The server port is shutting down.
+[10/01/2020, 18:23:00:225 GMT] 00000fa0 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/01/2020, 18:23:00:262 GMT] 00000fa3 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application port has stopped successfully.
+[10/01/2020, 18:23:01:133 GMT] 00000fa0 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: The MicroProfile JWT version 1.1 mpConfigProxy deactivated successfully.
+[10/01/2020, 18:23:01:136 GMT] 00000fa0 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully deactivated.
+[10/01/2020, 18:23:01:138 GMT] 00000fa0 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [defaultMpJwt] was successfully deactivated.
+[10/01/2020, 18:23:01:139 GMT] 00000fa0 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully deactivated.
+[10/01/2020, 18:23:01:258 GMT] 00000fa0 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[10/01/2020, 18:23:01:401 GMT] 00000fa0 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[10/01/2020, 18:23:01:714 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server port stopped after 44 minutes, 8.41 seconds.
